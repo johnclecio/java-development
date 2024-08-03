@@ -1,4 +1,4 @@
-//1. Escreva um código que receba como entrada um número inteiro e gere a sequência fibonacci até a posição apontada pelo número.
+package Questoes.Teste1;//1. Escreva um código que receba como entrada um número inteiro e gere a sequência fibonacci até a posição apontada pelo número.
 
 
 import java.util.Scanner;
@@ -15,7 +15,7 @@ public class Fibonacci {
         int antes = 0;
 
         for (int i = 1; i <= n; i++) {
-            System.out.println("Fibonacci(" + i + ") = " + sequenciaFibonacci);
+            System.out.println("Questoes.Teste1.Fibonacci(" + i + ") = " + sequenciaFibonacci);
             int fibo = sequenciaFibonacci;
             sequenciaFibonacci = sequenciaFibonacci + antes;
             antes = fibo;
