@@ -9,23 +9,26 @@ public class Fibonacci {
 
         System.out.println("Digite um número ");
         int n = scanner.nextInt();
-        int sequenciaFibonacci = 0;
-        for (int i = 1; i < n; i++) {
 
-            System.out.println("Fibonacci(" + i + ") = " + sequenciaFibonacci(i));
+
+        int sequenciaFibonacci = 1;
+        int antes = 0;
+
+        for (int i = 1; i <= n; i++) {
+            System.out.println("Fibonacci(" + i + ") = " + sequenciaFibonacci);
+            int fibo = sequenciaFibonacci;
+            sequenciaFibonacci = sequenciaFibonacci + antes;
+            antes = fibo;
+
 
         }
 
 
     }
-
-    private static int sequenciaFibonacci(int n) {
-        if (n <= 1) {
-            return n;
-        } else {
-            return sequenciaFibonacci(n - 1) + sequenciaFibonacci(n - 2);
-        }
-    }
-
-
 }
+
+
+
+
+
+
