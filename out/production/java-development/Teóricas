@@ -1,8 +1,33 @@
 Teóricas 
 1. Quais os princípios da programação orientada a objeto? 
+encapsulamento, herança, polimorfismo e abstração.  
 
 2. O que são tipos de dados primitivos?  
 são dados mais básico da programação, como exemplo \ int,  double, float, char, byte, boolean, também porque não podem ser decompostos em tipos de dados mais simples. 
 
 3. Java é uma linguagem compilada ou interpretada, explique? 
+Compilada sendo ele traduzido para linguagem de maquina. 
+
+
 4. O que são interfaces em java? dê exemplos de uso. 
+são um forma de contrato com a classe, na qual a sua regra seja seguida.  
+Um exemplo foi em uma atividade na qual uma interface com uma forma de calcula preço total e o desconto onde cada classe poderia aplica de forma diferente sua forma de aplica este método.
+
+
+
+
+Extra:
+1. Qual a diferença entre uma linguagem compilada e interpretada? Cite vantagens e desvantagens para cada uma.
+A principal diferença entre linguagens compiladas e interpretadas é que as linguagens interpretadas não necessitam de um passo de compilação antes da execução. O código é lido e executado diretamente por um interpretador
+Compilada vantagens: seu desempenho, segurança e distribuição.
+Compilada desvantagens: Portabilidade e tempo de compilação.
+
+Interpretada vantagens: portabilidade, rapida, flexibilidade.
+Interpretada desvantagens: Desempenho e erro de execução.
+
+
+
+
+  
+ 
+
