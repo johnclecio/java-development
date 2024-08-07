@@ -6,8 +6,8 @@ package Questoes.Teste1;
 import java.util.Scanner;
 
 public class MediaTotal {
-    public static void main(String[] args) {
-        Scanner scanner =new Scanner(System.in);
+    public static void SuaMedia(Scanner args) {
+        Scanner scanner = new Scanner(System.in);
         int n = -1;
         double soma = 0;
         double cont = 0;
@@ -51,5 +51,8 @@ public class MediaTotal {
 
 
 
+    }
+
+    public static void SuaMedia() {
     }
 }
