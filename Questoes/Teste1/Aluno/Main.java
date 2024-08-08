@@ -21,7 +21,6 @@ public class Main {
             System.out.println("Digite 4 Forma geométrica");
             System.out.println("Digite 5 para sair");
 
-            try {
                 op = scanner.nextInt();
                 scanner.nextLine(); // Consume newline
 
@@ -58,12 +57,8 @@ public class Main {
                     case 5:
                         System.out.println("Saindo...");
                         break;
-     4                   System.out.println("Opção inválida. Tente novamente.");
                 }
-            } catch (InputMismatchException e) {
-                System.out.println("Entrada inválida. Por favor, insira um número inteiro.");
-                scanner.nextLine(); // Clear the invalid input
-            }
+
         } while (op != 5);
     }
 }
